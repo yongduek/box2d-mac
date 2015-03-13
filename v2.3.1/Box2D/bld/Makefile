@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.1.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D
+CMAKE_SOURCE_DIR = /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld
+CMAKE_BINARY_DIR = /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,9 +114,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,19 +169,6 @@ HelloWorld/fast:
 	$(MAKE) -f HelloWorld/CMakeFiles/HelloWorld.dir/build.make HelloWorld/CMakeFiles/HelloWorld.dir/build
 .PHONY : HelloWorld/fast
 
-#=============================================================================
-# Target rules for targets named Testbed
-
-# Build rule for target.
-Testbed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Testbed
-.PHONY : Testbed
-
-# fast build rule for target.
-Testbed/fast:
-	$(MAKE) -f Testbed/CMakeFiles/Testbed.dir/build.make Testbed/CMakeFiles/Testbed.dir/build
-.PHONY : Testbed/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -196,7 +183,6 @@ help:
 	@echo "... install/local"
 	@echo "... Box2D"
 	@echo "... HelloWorld"
-	@echo "... Testbed"
 .PHONY : help
 
 

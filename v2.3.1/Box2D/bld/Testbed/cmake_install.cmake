@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed
+# Install script for directory: /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

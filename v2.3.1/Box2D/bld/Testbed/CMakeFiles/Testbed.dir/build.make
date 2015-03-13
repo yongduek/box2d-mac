@@ -35,10 +35,10 @@ RM = /usr/local/Cellar/cmake/3.1.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D
+CMAKE_SOURCE_DIR = /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld
+CMAKE_BINARY_DIR = /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld
 
 # Include any dependencies generated for this target.
 include Testbed/CMakeFiles/Testbed.dir/depend.make
@@ -51,17 +51,17 @@ include Testbed/CMakeFiles/Testbed.dir/flags.make
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: Testbed/CMakeFiles/Testbed.dir/flags.make
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Testbed/Framework/Main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Framework/Main.cpp.o -c /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/Main.cpp
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Framework/Main.cpp.o -c /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/Main.cpp
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testbed.dir/Framework/Main.cpp.i"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/Main.cpp > CMakeFiles/Testbed.dir/Framework/Main.cpp.i
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/Main.cpp > CMakeFiles/Testbed.dir/Framework/Main.cpp.i
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testbed.dir/Framework/Main.cpp.s"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/Main.cpp -o CMakeFiles/Testbed.dir/Framework/Main.cpp.s
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/Main.cpp -o CMakeFiles/Testbed.dir/Framework/Main.cpp.s
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o.requires:
 .PHONY : Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o.requires
@@ -74,17 +74,17 @@ Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o.provides.build: Testbed/CMak
 
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: Testbed/CMakeFiles/Testbed.dir/flags.make
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../Testbed/Framework/RenderGL3.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o -c /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/RenderGL3.cpp
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o -c /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/RenderGL3.cpp
 
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.i"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/RenderGL3.cpp > CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.i
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/RenderGL3.cpp > CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.i
 
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.s"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/RenderGL3.cpp -o CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.s
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/RenderGL3.cpp -o CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.s
 
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o.requires:
 .PHONY : Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o.requires
@@ -97,17 +97,17 @@ Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o.provides.build: Testbed
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: Testbed/CMakeFiles/Testbed.dir/flags.make
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Testbed/Framework/Test.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Framework/Test.cpp.o -c /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/Test.cpp
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Framework/Test.cpp.o -c /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/Test.cpp
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testbed.dir/Framework/Test.cpp.i"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/Test.cpp > CMakeFiles/Testbed.dir/Framework/Test.cpp.i
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/Test.cpp > CMakeFiles/Testbed.dir/Framework/Test.cpp.i
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testbed.dir/Framework/Test.cpp.s"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Framework/Test.cpp -o CMakeFiles/Testbed.dir/Framework/Test.cpp.s
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Framework/Test.cpp -o CMakeFiles/Testbed.dir/Framework/Test.cpp.s
 
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o.requires:
 .PHONY : Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o.requires
@@ -120,17 +120,17 @@ Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o.provides.build: Testbed/CMak
 
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: Testbed/CMakeFiles/Testbed.dir/flags.make
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/TestEntries.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o -c /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Tests/TestEntries.cpp
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o -c /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Tests/TestEntries.cpp
 
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.i"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Tests/TestEntries.cpp > CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.i
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Tests/TestEntries.cpp > CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.i
 
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.s"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed/Tests/TestEntries.cpp -o CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.s
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed/Tests/TestEntries.cpp -o CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.s
 
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o.requires:
 .PHONY : Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o.requires
@@ -159,7 +159,7 @@ Testbed/Testbed: Testbed/CMakeFiles/Testbed.dir/build.make
 Testbed/Testbed: Box2D/libBox2D.a
 Testbed/Testbed: Testbed/CMakeFiles/Testbed.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable Testbed"
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Testbed.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Testbed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Testbed/CMakeFiles/Testbed.dir/build: Testbed/Testbed
@@ -172,10 +172,10 @@ Testbed/CMakeFiles/Testbed.dir/requires: Testbed/CMakeFiles/Testbed.dir/Tests/Te
 .PHONY : Testbed/CMakeFiles/Testbed.dir/requires
 
 Testbed/CMakeFiles/Testbed.dir/clean:
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed && $(CMAKE_COMMAND) -P CMakeFiles/Testbed.dir/cmake_clean.cmake
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed && $(CMAKE_COMMAND) -P CMakeFiles/Testbed.dir/cmake_clean.cmake
 .PHONY : Testbed/CMakeFiles/Testbed.dir/clean
 
 Testbed/CMakeFiles/Testbed.dir/depend:
-	cd /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/Testbed /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed /Users/yndk/Dropbox/opengl/b2/v2.3.1/Box2D/bld/Testbed/CMakeFiles/Testbed.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/Testbed /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Testbed/CMakeFiles/Testbed.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Testbed/CMakeFiles/Testbed.dir/depend
 

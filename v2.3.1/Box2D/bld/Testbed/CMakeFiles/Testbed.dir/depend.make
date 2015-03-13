@@ -38,8 +38,6 @@ Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Box2D/Dynamics/b2Fixture
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Box2D/Dynamics/b2TimeStep.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Box2D/Dynamics/b2World.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Box2D/Dynamics/b2WorldCallbacks.h
-Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../glew/glew.h
-Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../glfw/glfw3.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Testbed/Framework/DebugDraw.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Testbed/Framework/Main.cpp
 Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Testbed/Framework/RenderGL3.h
@@ -48,7 +46,6 @@ Testbed/CMakeFiles/Testbed.dir/Framework/Main.cpp.o: ../Testbed/Framework/imgui.
 
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../Box2D/Common/b2Math.h
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../Box2D/Common/b2Settings.h
-Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../glew/glew.h
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../Testbed/Framework/RenderGL3.cpp
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../Testbed/Framework/RenderGL3.h
 Testbed/CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o: ../Testbed/Framework/stb_truetype.h
@@ -90,8 +87,6 @@ Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Box2D/Dynamics/b2Fixture
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Box2D/Dynamics/b2TimeStep.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Box2D/Dynamics/b2World.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Box2D/Dynamics/b2WorldCallbacks.h
-Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../glew/glew.h
-Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../glfw/glfw3.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Testbed/Framework/DebugDraw.h
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Testbed/Framework/Test.cpp
 Testbed/CMakeFiles/Testbed.dir/Framework/Test.cpp.o: ../Testbed/Framework/Test.h
@@ -133,8 +128,6 @@ Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Box2D/Dynamics/b2Fixt
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Box2D/Dynamics/b2TimeStep.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Box2D/Dynamics/b2World.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Box2D/Dynamics/b2WorldCallbacks.h
-Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../glew/glew.h
-Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../glfw/glfw3.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Framework/DebugDraw.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Framework/Test.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/AddPair.h

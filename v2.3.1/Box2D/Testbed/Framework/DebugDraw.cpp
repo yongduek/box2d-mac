@@ -18,11 +18,12 @@
 
 #include "DebugDraw.h"
 
-#if defined(__APPLE_CC__)
-#include <OpenGL/gl3.h>
-#else
-#include <glew/glew.h>
-#endif
+//#if defined(__APPLE_CC__)
+//#include <OpenGL/gl3.h>
+//#else
+//#include <glew/glew.h>
+//#endif
+#include <GL/glew.h>
 
 #include <glfw/glfw3.h>
 #include <stdio.h>

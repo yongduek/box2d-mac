@@ -27,5 +27,5 @@ set ( BOX2D_LIBRARIES    "Box2D" )
 set ( BOX2D_LIBRARY_DIRS "/usr/local/lib" )
 set ( BOX2D_ROOT_DIR     "/usr/local" )
 
-set ( BOX2D_VERSION_STRING "2.3.0" )
+set ( BOX2D_VERSION_STRING "2.3.1" )
 

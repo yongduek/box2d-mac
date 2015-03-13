@@ -21,11 +21,12 @@
 #include "DebugDraw.h"
 #include "Test.h"
 
-#if defined(__APPLE__)
-#include <OpenGL/gl3.h>
-#else
-#include <glew/glew.h>
-#endif
+//#if defined(__APPLE__)
+//#include <OpenGL/gl3.h>
+//#else
+//#include <glew/glew.h>
+//#endif
+#include <GL/glew.h> // installed by brew
 
 #include <glfw/glfw3.h>
 #include <stdio.h>

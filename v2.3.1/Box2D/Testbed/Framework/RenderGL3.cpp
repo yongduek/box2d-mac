@@ -22,13 +22,14 @@
 #include <math.h>
 #include <stdio.h>
 
-#ifdef __APPLE__
-#include <OpenGL/gl3.h>
-#else
-#include <glew/glew.h>
-#include <GL/gl.h>
-#endif
+//#ifdef __APPLE__
+//#include <OpenGL/gl3.h>
+//#else
+//#include <glew/glew.h>
+//#include <GL/gl.h>
+//#endif
 
+#include <GL/glew.h>
 #include "RenderGL3.h"
 
 // Some math headers don't have PI defined.

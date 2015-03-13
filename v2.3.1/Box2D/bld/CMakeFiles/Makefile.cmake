@@ -11,7 +11,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Box2D/CMakeLists.txt"
   "../CMakeLists.txt"
   "../HelloWorld/CMakeLists.txt"
-  "../Testbed/CMakeLists.txt"
   "CMakeFiles/3.1.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.1.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.1.2/CMakeSystem.cmake"
@@ -50,12 +49,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Box2D/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HelloWorld/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Testbed/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "Box2D/CMakeFiles/Box2D.dir/DependInfo.cmake"
   "HelloWorld/CMakeFiles/HelloWorld.dir/DependInfo.cmake"
-  "Testbed/CMakeFiles/Testbed.dir/DependInfo.cmake"
   )
