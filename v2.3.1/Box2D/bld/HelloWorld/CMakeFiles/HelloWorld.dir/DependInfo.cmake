@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/HelloWorld/HelloWorld.cpp" "/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/HelloWorld/CMakeFiles/HelloWorld.dir/HelloWorld.cpp.o"
+  "/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/HelloWorld/HelloWorld.cpp" "/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/bld/HelloWorld/CMakeFiles/HelloWorld.dir/HelloWorld.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Box2D/CMakeFiles/Box2D.dir/DependInfo.cmake"
+  "/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/bld/Box2D/CMakeFiles/Box2D.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

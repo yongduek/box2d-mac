@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D
+# Install script for directory: /Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,10 +27,14 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Box2D" TYPE DIRECTORY FILES "/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/Documentation" REGEX "/\\.svn$" EXCLUDE)
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/Box2D/cmake_install.cmake")
-  include("/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/HelloWorld/cmake_install.cmake")
+  include("/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/bld/Box2D/cmake_install.cmake")
+  include("/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/bld/HelloWorld/cmake_install.cmake")
 
 endif()
 
@@ -40,7 +44,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/bld/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/Users/yndk/Dropbox/opengl/b2/github/v2.3.1/Box2D/bld/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/Users/yndk/Desktop/box2d-mac/v2.3.1/Box2D/bld/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

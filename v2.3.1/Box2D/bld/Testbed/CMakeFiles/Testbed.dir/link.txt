@@ -1,1 +1,0 @@
-/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Testbed.dir/Framework/Main.cpp.o CMakeFiles/Testbed.dir/Framework/RenderGL3.cpp.o CMakeFiles/Testbed.dir/Framework/Test.cpp.o CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o  -o Testbed  ../Box2D/libBox2D.a -framework AGL -framework OpenGL 
